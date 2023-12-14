@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"cs2030s.fp","c":"Actionable","l":"act(Action<? super T>)","u":"act(cs2030s.fp.Action)"}];updateSearchResults();

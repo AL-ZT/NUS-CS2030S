@@ -1,0 +1,25 @@
+--- Test #2 ---
+Choco Candy (3 gram)
+Treater Adi
+Tricker Ida
+Tricker Ada
+Tricker Idi
+ida.receive(c): true
+ida.getStatus(): Tricker Ida performed 0 tricks and has bag size 2 remaining
+ida.receive(c): false
+ida.getStatus(): Tricker Ida performed 0 tricks and has bag size 2 remaining
+ada.playTricks(ida): Tricker Ada receives from Tricker Ida
+ida.getStatus(): Tricker Ida performed 0 tricks and has bag size 5 remaining
+ada.getStatus(): Tricker Ada performed 0 tricks and has bag size 3 remaining
+ada.playTricks(ida): Tricker Ada perform the trick Jump to Tricker Ida
+ida.getStatus(): Tricker Ida performed 0 tricks and has bag size 5 remaining
+ada.getStatus(): Tricker Ada performed 1 tricks and has bag size 3 remaining
+No More Candy!
+idi.playTricks(adi): Tricker Idi receives from Treater Adi
+idi.playTricks(adi): Tricker Idi receives from Treater Adi
+idi.playTricks(adi): Tricker Idi receives from Treater Adi
+idi.playTricks(adi): Tricker Idi receives from Treater Adi
+idi.playTricks(adi): Tricker Idi receives from Treater Adi
+idi.playTricks(adi): Tricker Idi perform the trick Boo! to Treater Adi
+idi.getStatus(): Tricker Idi performed 1 tricks and has bag size 5 remaining
+adi.getStatus(): Treater Adi gave 5 away out of 5 Choco Candy (3 gram)

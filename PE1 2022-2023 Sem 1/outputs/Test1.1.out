@@ -1,0 +1,27 @@
+--- Test #1 ---
+CandyBag 5/5 (20 gram)
+c.getWeight: 20
+c.isEaten: false
+c.eat()
+CandyBag 4/5 (16 gram)
+c.eat()
+c.eat()
+c.eat()
+CandyBag 1/5 (4 gram)
+c.getWeight: 4
+c.isEaten: false
+c.eat()
+c.isEaten: true
+CandyBag 0/5 (0 gram)
+c.eat()
+c.isEaten: true
+CandyBag 0/5 (0 gram)
+Sour Candy (3 gram)
+c.eat()
+c.isEaten: false
+Sour Candy (3 gram)
+Sour Candy (3 gram)
+Sour Candy (3 gram)
+c.eat()
+Sour Candy (0 gram)
+c.isEaten: true
